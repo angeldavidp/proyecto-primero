@@ -557,6 +557,7 @@ video {
 .bg-orange-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
+
 }
 
 .text-3xl {
@@ -566,4 +567,5 @@ video {
 
 .font-bold {
   font-weight: 700;
+
 }
