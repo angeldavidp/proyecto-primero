@@ -595,12 +595,31 @@ video {
   margin-right: auto;
 }
 
+.my-12{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .flex{
   display: flex;
 }
 
 .h-8{
   height: 2rem;
+}
+
+.h-1\/2{
+  height: 50%;
 }
 
 .h-auto{
@@ -611,24 +630,36 @@ video {
   width: 8rem;
 }
 
-.w-7{
-  width: 1.75rem;
-}
-
-.w-60{
-  width: 15rem;
-}
-
 .flex-col{
   flex-direction: column;
+}
+
+.place-content-center{
+  place-content: center;
+}
+
+.items-end{
+  align-items: flex-end;
 }
 
 .items-center{
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .gap-1{
@@ -639,6 +670,34 @@ video {
   gap: 1.5rem;
 }
 
+.gap-12{
+  gap: 3rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.text-wrap{
+  text-wrap: wrap;
+}
+
+.text-nowrap{
+  text-wrap: nowrap;
+}
+
+.text-balance{
+  text-wrap: balance;
+}
+
 .rounded-lg{
   border-radius: 0.5rem;
 }
@@ -646,11 +705,6 @@ video {
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .p-3{
@@ -667,6 +721,33 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.text-start{
+  text-align: start;
+}
+
 .font-title{
   font-family: Fraunces;
 }
@@ -676,8 +757,32 @@ video {
   line-height: 1.25rem;
 }
 
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold{
   font-weight: 600;
+}
+
+.font-extrabold{
+  font-weight: 800;
 }
 
 .text-white{
@@ -757,6 +862,10 @@ video {
     width: 8rem;
   }
 
+  .md\:w-36{
+    width: 9rem;
+  }
+
   .md\:gap-14{
     gap: 3.5rem;
   }
@@ -778,21 +887,5 @@ video {
 
   .lg\:gap-9{
     gap: 2.25rem;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:flex{
-    display: flex;
-  }
-
-  .xl\:justify-between{
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 1536px){
-  .\32xl\:justify-between{
-    justify-content: space-between;
   }
 }
