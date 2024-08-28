@@ -8,8 +8,7 @@
   </head>
 
   <body>
-    <header>
-        <div class="container mx-auto flex flex-col justify-center items-center gap-1 py-2 sm:flex-row sm:h-16 sm:gap-6 sm:py-2 md:gap-14 lg:gap-24">
+    <header class="container mx-auto flex flex-col justify-center items-center gap-1 py-2 sm:flex-row sm:h-16 sm:gap-6 sm:py-2 md:gap-14 lg:gap-24 lg:flex lg:justify-around lg:my-6">
             <img src="img/logoDark.svg" alt="logoDark" class="w-32 h-8 sm:w-28 md:w-32"/>
             <ul class="flex gap-6 p-3 font-title font-semibold text-sm sm:gap-3 md:text-lg  md:gap-6 lg:gap-9">
               <li><a href="#" class="hover:text-blue-500">Home</a></li>
@@ -19,19 +18,19 @@
               <li><a href="#" class="hover:text-purple-600">Contact</a></li>
             </ul>
             <button class="bg-black text-white rounded-lg w-32 py-1 sm:text-sm sm:w-28 md:text-lg md:w-32 hover:bg-slate-200 hover:text-black">Book a Demo</button>
-          </div>
     </header>
 
     <main>
-      <section>
-        <section class="container mx-auto flex flex-col justify-center my-12 px-12 animate-fade-up">
-           
-        <h1 class="font-title font-extrabold text-4xl " >Drive revenue with stunning website</h1>
-        <p class="font-title text-xl my-6 animate-fade-up animate-delay-[950ms]">Engineering digital experiences that supercharge your SaaS platform's growth.</p>
-        <button class="bg-black text-white rounded-lg w-32 py-1 sm:text-sm sm:w-28 md:text-lg md:w-36 hover:bg-slate-200 hover:text-black" >Book a free call</button>
-        <img src="./img/first.svg" alt="">
-        
-      </section>
+        <section class="flex-col p-5 lg:flex lg:flex-row lg:items-center lg:justify-center lg:m-16">
+            <div class="flex-col my-3 lg:flex lg:mx-40 lg:w-1/4">
+              <h1 class="text-4xl font-title font-extrabold lg:text-6xl lg:mb-3 lg:leading-tight">Drive revenue with stunning website</h1>
+              <p class="my-4 text-xl lg:mb-7">Engineering digital experiences that supercharge your SaaS platform's growth.</p>
+              <button class="bg-black text-white rounded-lg w-36 p-2  hover:bg-slate-200 hover:text-black">Book a free call</button>
+            </div>
+            <div>
+              <img src="./img/first.svg" alt="">
+            </div>
+          </section>
     </main>
   </body>
 </html>
