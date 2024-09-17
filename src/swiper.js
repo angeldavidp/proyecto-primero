@@ -31,3 +31,39 @@ new Swiper(".swiper-container",
       },
     }
   });
+
+  new Swiper(".new-swiper",
+    {
+  
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+  
+      slidesPerView: 1,
+      spaceBetween: 10,
+  
+      breakpoints: {
+        620: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+  
+        680: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+  
+        920: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+        1240: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+      }
+    });
+
+
