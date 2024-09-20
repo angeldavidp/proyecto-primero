@@ -90,14 +90,14 @@
         class="flex flex-col justify-center items-center mt-16 gap-6 max-w-7xl mx-auto"
       >
         <div
-          class="font-title font-bold text-3xl px-4 my-16 text-center lg:text-6xl lg:w-2/3"
+          class="font-title font-bold text-3xl mx-16 mt-16 text-center lg:text-6xl lg:w-2/3"
         >
           <h2>Data-driven web design in digital age</h2>
         </div>
 
-        <div class="flex flex-col gap-4 lg:flex-row lg:gap-24">
+        <div class="flex flex-col gap-4 p-8 lg:flex-row lg:gap-8 ">
           <div
-            class="flex flex-col w-80 h-50 bg-[#C693EC] p-4 gap-4 rounded-xl lg:w-96 lg:h-96 lg:p-8"
+            class="flex flex-col w-full h-50 bg-[#C693EC] p-4 gap-4 rounded-xl lg:w-96 lg:h-96 lg:p-8"
           >
             <img src="./img/card1-image.svg" alt="" class="w-16 lg:w-28" />
             <h3 class="font-title font-bold text-2xl lg:text-4xl">Desing</h3>
@@ -109,7 +109,7 @@
           </div>
 
           <div
-            class="flex flex-col w-80 h-50 bg-[#78C9DA] p-4 gap-4 rounded-xl lg:w-96 lg:h-96 lg:p-8"
+            class="flex flex-col w-full h-50 bg-[#78C9DA] p-4 gap-4 rounded-xl lg:w-96 lg:h-96 lg:p-8"
           >
             <img src="./img/card2-image.svg" alt="" class="w-16 lg:w-28" />
             <h3 class="font-title font-bold text-2xl lg:text-4xl">
@@ -123,7 +123,7 @@
           </div>
 
           <div
-            class="flex flex-col w-80 h-50 bg-[#ECB935] p-4 gap-4 rounded-xl lg:w-96 lg:h-96 lg:p-8"
+            class="flex flex-col w-full h-50 bg-[#ECB935] p-4 gap-4 rounded-xl lg:w-96 lg:h-96 lg:p-8"
           >
             <img src="./img/card3-image.svg" alt="" class="w-16 lg:w-28" />
             <h3 class="font-title font-bold text-2xl lg:text-4xl">Marketing</h3>
@@ -418,15 +418,16 @@
       </section>
 
       <section class="flex-col p-5 max-w-7xl mx-auto mt-24">
-        <div class="">
+        <div class="flex justify-center items-center">
           <div
-            class="font-title flex justify-center items-center font-extrabold text-6xl"
+            class="font-title font-extrabold text-4xl md:text-7xl md:px-12 xl:w-4/6 xl:justify-center "
           >
-            <h3 class="w-4/6 text-center">Why Acquiant is the best for you</h3>
+            <h3 class="text-center">Why Acquiant is the best for you</h3>
           </div>
+        </div>
 
-          <div class="flex flex-row gap-36">
-            <div class="mt-24 w-52 text-xl">
+          <div class="flex flex-col items-center md:grid md:grid-cols-2 md:place-items-center xl:grid-cols-4 xl:place-content-center xl:place-items-center">
+            <div class="mt-12 w-52 text-xl xl:mt-24">
               <div class="flex flex-row gap-4 items-center">
                 <span
                   class="rounded-full h-8 w-8 bg-purple-400 flex justify-center items-center"
@@ -474,7 +475,6 @@
               <p>Our team comprises individuals who are passionate.</p>
             </div>
           </div>
-        </div>
       </section>
 
       <section class="flex flex-col p-5 max-w-7xl mx-auto mt-24">
@@ -673,13 +673,13 @@
 
       <section class="flex flex-col p-5 max-w-7xl mx-auto mt-24">
         <div class="flex flex-col gap-12 justify-center items-center">
-          <div class="w-4/6 text-center">
-            <h2 class="text-6xl font-bold font-title">
+          <div class="w-10/12 text-center">
+            <h2 class="text-4xl font-bold font-title xl:text-6xl">
               Stay connected to our latest blog
             </h2>
           </div>
 
-          <div class="grid grid-cols-3 gap-4 w-4/5 justify-center">
+          <div class="grid gap-4 justify-center xl:grid-cols-3 ">
             <div
               class="flex flex-row items-center w-72 rounded-xl gap-6 border-gray-500 border-2"
             >
@@ -694,7 +694,7 @@
               </div>
             </div>
             <div
-              class="bg-black flex flex-col w-72 rounded-xl row-span-3 items-center p-3 justify-center"
+              class="bg-black flex flex-col w-72 rounded-xl row-start-4 items-center p-3 justify-center xl:row-span-3"
             >
               <div
                 class="flex flex-col justify-center items-center text-center gap-4"
@@ -798,12 +798,12 @@
       <section
         class="flex flex-col p-5 max-w mx-auto mt-24 items-center justify-center bg-[#C086EC]"
       >
-        <div class="flex flex-row items-center justify-center">
-          <div class="w-6/12 flex flex-col gap-8">
-            <h2 class="text-6xl font-title font-extrabold">
+        <div class="flex flex-col items-center justify-center xl:flex-row xl:m-20">
+          <div class="flex flex-col gap-4 mt-8 md:justify-start md:p-8 xl:w-3/5">
+            <h2 class="text-4xl font-title font-extrabold md:text-6xl xl:text-7xl ">
               Designing future, Brainstorm
             </h2>
-            <p class="text-xl w-3/4">
+            <p class="text-lg md:w-3/5 md:text-xl ">
               We design with the future in mind, creating web solutions that are
               easily adaptable and convertible to users.
             </p>
@@ -821,32 +821,35 @@
     </main>
 
     <footer class="flex flex-col p-5 max-w mx-auto bg-black">
-      <div class="flex justify-center items-center gap-80">
-        <div class="flex flex-col justify-center items-start text-white">
-          <a href="">
-            <img src="img/logoLight.svg" alt="" class="w-32 h-32" />
-          </a>
-          <ul class="flex flex-col gap-6">
-            <li>
-              <a href="" class="flex items-center gap-6">
-                <img src="img/mail.svg" alt="" /> info@acquaintsoft.com
-              </a>
-            </li>
-            <li>
-              <a href="" class="flex items-center gap-6">
-                <img src="img/contact.svg" alt="" /> +01626-71XXXX
-              </a>
-            </li>
-            <li>
-              <a href="" class="flex items-center gap-6">
-                <img src="img/address.svg" alt="" /> Daudkandi, Cumilla
-              </a>
-            </li>
-          </ul>
-        </div>
+
+      <div class="flex flex-col gap-80">
+
+        <div class="flex flex-col xl:flex-row xl:justify-around">
+          <div class="flex flex-col justify-center items-start text-white">
+            <a href="">
+              <img src="img/logoLight.svg" alt="" class="w-40 h-40" />
+            </a>
+            <ul class="flex flex-col gap-6 text-xl">
+              <li>
+                <a href="" class="flex items-center gap-6">
+                  <img src="img/mail.svg" alt="" /> info@acquaintsoft.com
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex items-center gap-6">
+                  <img src="img/contact.svg" alt="" /> +01626-71XXXX
+                </a>
+              </li>
+              <li>
+                <a href="" class="flex items-center gap-6">
+                  <img src="img/address.svg" alt="" /> Daudkandi, Cumilla
+                </a>
+              </li>
+            </ul>
+          </div>
 
         <div
-          class="flex flex-row justify-center items-start gap-32 text-white mt-12"
+          class="flex flex-col justify-start items-start gap-20 text-white mt-12 text-xl xl:flex-row"
         >
           <div class="text-white flex flex-col gap-8">
             <h2 class="font-bold font-title">PAGES</h2>
@@ -878,7 +881,7 @@
           </div>
         </div>
       </div>
-
+    </div>
       <div
         class="text-white flex flex-col justify-center items-center gap-8 mt-28"
       >
